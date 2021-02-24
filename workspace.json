@@ -710,6 +710,22 @@
         }
       }
     },
+    "remix-ui-workspace": {
+      "root": "libs/remix-ui/workspace",
+      "sourceRoot": "libs/remix-ui/workspace/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:lint",
+          "options": {
+            "linter": "eslint",
+            "tsConfig": ["libs/remix-ui/workspace/tsconfig.lib.json"],
+            "exclude": ["**/node_modules/**", "!libs/remix-ui/workspace/**/*"]
+          }
+        }
+      }
+    },
     "remix-ui-solidity-compiler": {
       "root": "libs/remix-ui/solidity-compiler",
       "sourceRoot": "libs/remix-ui/solidity-compiler/src",

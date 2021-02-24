@@ -93,6 +93,9 @@
     "debugger": {
       "tags": []
     },
+    "remix-ui-workspace": {
+      "tags": []
+    },
     "remix-ui-solidity-compiler": {
       "tags": []
     }
